@@ -7,15 +7,15 @@ Note: the checksum is not spoofed, so don't worry.
 
 Usage:
 
-<pre>
+```
    go install github.com/hyangah/installas@latest
    cd <your_project_main_module_directory>
    installas <path_to_your_tool>@<version>
-</pre>
+```
 
 For example,
 
-<pre>
+```
 $ GOBIN=/tmp/bin installas @v1.0.0
 
 $ go version -m /tmp/bin/installas
@@ -27,4 +27,4 @@ $ go version -m /tmp/bin/installas
         build   -compiler=gc
         build   DefaultGODEBUG=panicnil=1
         ...
-</pre>
+```
